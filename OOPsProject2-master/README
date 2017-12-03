@@ -1,0 +1,54 @@
+TestIterator.java:
+
+* Trying with linked list, did it make any difference?
+A) It takes 0.039s with arrays list and 0.043s with a linked list for execution.
+
+* What happens if you use list.remove(77); ?
+A) It removes the element.
+
+TestPerformance.java:
+
+* Run test and record running times for SIZE= 10, 100, 1000, 10000
+
+Methods & Sizes
+10
+1000
+1000
+10000
+LinkedListAddRemove
+0.177s
+0.135s
+0.143s
+0.147s
+ArrayListAddRemove
+0.119s
+0.176s
+0.392s
+3s
+LinkedListAccess
+0.114s
+0.131s
+0.684s
+7s
+ArrayListAccess
+0.069s
+0.096s
+0.123s
+0.11s
+
+o For accessing Array list is the best
+o For Adding and removing Linked list is the best
+
+TestList.java:
+* Try with linked list, does it make any difference?
+A) Indexing is easy & fast with array list and indexing is slow with linked list.
+
+* list.remove(5);  What does this do?
+A) It removes the element 5.
+
+* list.remove(Integer.valueOf(5)); what does this do?
+A) It invokes the list.remove( ) method.
+
+
+
+
